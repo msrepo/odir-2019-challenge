@@ -9,6 +9,9 @@ import torchvision.transforms.functional as tvf
 training_img_var = torch.Tensor([0.0713, 0.0345, 0.0140])
 training_img_mean = torch.Tensor([0.4384, 0.2866, 0.1646])
 
+LABELS  = ['N','D','G','C','A','H','M','O']
+LABELS_TO_IDX = {l:idx for idx, l in enumerate(LABELS)}
+
 def nonzero_bounding_box(img:np.ndarray, verbose=False):
     '''
     1. split the image into four quadrants: h_left_split, h_right_split, w_top_split, w_bottom_split
@@ -113,3 +116,8 @@ def get_img_transform(img_size:int):
         Resize(size=img_size,interpolation=tvf.InterpolationMode.BILINEAR,antialias=True)
     ])
     return resized_img_transform
+
+def labels_to_idx(label):
+    return LABELS_TO_IDX[label]
+
+label_transform = Lambda(labels_to_idx)

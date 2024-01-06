@@ -26,7 +26,7 @@ class CSVDataset(Dataset):
         if self.img_transform:
             img = self.img_transform(img)
         if self.label_transform:
-            label = self.label_transform
+            label = self.label_transform(label)
         
         return img, label
 
