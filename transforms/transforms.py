@@ -1,9 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import torch
-from torchvision.transforms import Lambda, Compose,ToTensor,Resize
+from torchvision.transforms import Lambda, Compose,ToTensor,Resize,Normalize
 from torchvision.io import read_image
 import torchvision.transforms.functional as tvf
+
+
+training_img_var = torch.Tensor([0.0713, 0.0345, 0.0140])
+training_img_mean = torch.Tensor([0.4384, 0.2866, 0.1646])
 
 def nonzero_bounding_box(img:np.ndarray, verbose=False):
     '''
@@ -99,6 +103,7 @@ img_transform = Compose([
     Lambda(crop_nonzero),
     ToTensor(),
     Lambda(pad_to_largest_square),
+    Normalize(mean= training_img_mean,std= torch.sqrt(training_img_var))
 ])
 
 def get_img_transform(img_size:int):

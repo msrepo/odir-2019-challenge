@@ -1,5 +1,7 @@
 from unittest import TestCase
 import unittest
+
+import torch
 from datasets.custom_dataset import CSVDataset
 from transforms.transforms import get_img_transform
 
@@ -12,7 +14,7 @@ class TestDataset(TestCase):
     
     def test_dataset(self):
         img, label = self.dataset[0]
-        print(img.shape,label)
+        print(img.shape,torch.var_mean(img,dim=(1,2)), label)
 
 if __name__ == "__main__":
     unittest.main()
