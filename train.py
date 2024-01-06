@@ -2,7 +2,6 @@ import torch
 from torch import nn
 from torch.utils.data import DataLoader
 from datasets.custom_dataset import CSVDataset
-from torchvision.models import resnet18
 
 from ignite.engine import Engine, Events, create_supervised_trainer, create_supervised_evaluator
 from ignite.metrics import Accuracy, Loss
@@ -10,27 +9,21 @@ from ignite.handlers import ModelCheckpoint
 from ignite.contrib.handlers import TensorboardLogger, global_step_from_engine
 
 from transforms.transforms import get_img_transform,label_transform
+from models.models import Net
+
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 IMG_SIZE = 300
-DATA_ROOT_DIR = 'odir2019/ODIR-5K_Training_Dataset'
+TRAIN_DATA_ROOT_DIR = 'odir2019/ODIR-5K_Training_Dataset'
+VAL_DATA_ROOT_DIR = 'odir2019/ODIR-5K_Testing_Images'
 TRAIN_CSV= 'csv/processed_train_ODIR-5K.csv'
 VAL_CSV = 'csv/processed_val_ODIR-5K.csv'
 N_CLASSES = 8
 N_CHANNELS = 3
-class Net(nn.Module):
+LOG_INTERVAL = 100
+BATCH_SIZE = 16
 
-    def __init__(self):
-        super(Net, self).__init__()
-    
-        self.model = resnet18(num_classes=N_CLASSES)
 
-        self.model.conv1 = self.model.conv1 = nn.Conv2d(
-            N_CHANNELS, 64, kernel_size=3, padding=1, bias=False
-        )
-
-    def forward(self, x):
-        return self.model(x)
 
 
 model = Net().to(device)
@@ -38,13 +31,13 @@ model = Net().to(device)
 data_transform = get_img_transform(img_size = IMG_SIZE)
 
 train_loader = DataLoader(
-    CSVDataset(data_root_dir=DATA_ROOT_DIR,csv_path=TRAIN_CSV,img_transform=data_transform,
-               label_transform=label_transform), batch_size=8, shuffle=True
+    CSVDataset(data_root_dir=TRAIN_DATA_ROOT_DIR,csv_path=TRAIN_CSV,img_transform=data_transform,
+               label_transform=label_transform), batch_size=BATCH_SIZE, shuffle=True
 )
 
 val_loader = DataLoader(
-    CSVDataset(data_root_dir=DATA_ROOT_DIR,csv_path=VAL_CSV,img_transform=data_transform,
-               label_transform=label_transform), batch_size=8, shuffle=False
+    CSVDataset(data_root_dir=VAL_DATA_ROOT_DIR,csv_path=VAL_CSV,img_transform=data_transform,
+               label_transform=label_transform), batch_size=BATCH_SIZE, shuffle=False
 )
 
 
@@ -61,7 +54,7 @@ val_metrics = {
 train_evaluator = create_supervised_evaluator(model, metrics=val_metrics, device=device)
 val_evaluator = create_supervised_evaluator(model, metrics=val_metrics, device=device)
 
-log_interval = 1
+log_interval = LOG_INTERVAL
 
 @trainer.on(Events.ITERATION_COMPLETED(every=log_interval))
 def log_training_loss(engine):
