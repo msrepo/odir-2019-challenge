@@ -1,0 +1,699 @@
+,fundus,label,keywords
+0,1_left.jpg,N,normal fundus
+1,12_left.jpg,O,retinal pigmentation
+2,21_left.jpg,O,epiretinal membrane
+3,22_left.jpg,D,moderate non proliferative retinopathy，laser spot
+4,31_left.jpg,O,epiretinal membrane
+5,46_left.jpg,D,moderate non proliferative retinopathy
+6,55_left.jpg,A,dry age-related macular degeneration
+7,57_left.jpg,N,lens dust，normal fundus
+8,62_left.jpg,D,hypertensive retinopathy
+9,66_left.jpg,O,atrophy
+10,75_left.jpg,O,drusen
+11,81_left.jpg,D,moderate non proliferative retinopathy，cataract
+12,91_left.jpg,N,normal fundus
+13,101_left.jpg,O,drusen
+14,106_left.jpg,M,pathological myopia
+15,110_left.jpg,O,macular epiretinal membrane
+16,128_left.jpg,N,normal fundus
+17,131_left.jpg,O,retinitis pigmentosa
+18,137_left.jpg,N,normal fundus
+19,145_left.jpg,M,pathological myopia
+20,156_left.jpg,O,refractive media opacity
+21,173_left.jpg,N,normal fundus
+22,175_left.jpg,O,drusen
+23,223_left.jpg,D,moderate non proliferative retinopathy
+24,254_left.jpg,C,cataract
+25,264_left.jpg,A,wet age-related macular degeneration
+26,294_left.jpg,C,cataract
+27,314_left.jpg,D,moderate non proliferative retinopathy
+28,318_left.jpg,O,epiretinal membrane
+29,323_left.jpg,D,hypertensive retinopathy，optic nerve atrophy
+30,327_left.jpg,D,moderate non proliferative retinopathy
+31,328_left.jpg,D,moderate non proliferative retinopathy
+32,348_left.jpg,D,moderate non proliferative retinopathy
+33,355_left.jpg,D,hypertensive retinopathy
+34,358_left.jpg,D,mild nonproliferative retinopathy，drusen
+35,359_left.jpg,A,dry age-related macular degeneration
+36,364_left.jpg,O,myelinated nerve fibers
+37,377_left.jpg,A,dry age-related macular degeneration
+38,388_left.jpg,O,refractive media opacity
+39,401_left.jpg,M,pathological myopia
+40,403_left.jpg,O,chorioretinal atrophy with pigmentation proliferation，epiretinal membrane
+41,406_left.jpg,O,epiretinal membrane
+42,412_left.jpg,D,severe nonproliferative retinopathy
+43,413_left.jpg,D,moderate non proliferative retinopathy，hypertensive retinopathy
+44,430_left.jpg,D,macular epiretinal membrane，mild nonproliferative retinopathy
+45,447_left.jpg,A,dry age-related macular degeneration
+46,473_left.jpg,D,severe nonproliferative retinopathy
+47,493_left.jpg,D,moderate non proliferative retinopathy，laser spot
+48,499_left.jpg,D,hypertensive retinopathy
+49,507_left.jpg,D,moderate non proliferative retinopathy
+50,515_left.jpg,N,normal fundus
+51,523_left.jpg,N,normal fundus
+52,531_left.jpg,O,vitreous degeneration
+53,541_left.jpg,D,post laser photocoagulation，diabetic retinopathy
+54,544_left.jpg,N,normal fundus
+55,548_left.jpg,O,spotted membranous change
+56,566_left.jpg,O,drusen
+57,581_left.jpg,O,chorioretinal atrophy
+58,584_left.jpg,O,myelinated nerve fibers
+59,596_left.jpg,O,epiretinal membrane，drusen
+60,625_left.jpg,C,cataract，suspected glaucoma
+61,628_left.jpg,O,epiretinal membrane
+62,632_left.jpg,O,myelinated nerve fibers
+63,638_left.jpg,A,dry age-related macular degeneration
+64,652_left.jpg,O,macular epiretinal membrane
+65,654_left.jpg,D,moderate non proliferative retinopathy
+66,657_left.jpg,O,epiretinal membrane
+67,659_left.jpg,O,branch retinal vein occlusion
+68,660_left.jpg,D,macular epiretinal membrane，mild nonproliferative retinopathy
+69,670_left.jpg,O,epiretinal membrane
+70,718_left.jpg,D,moderate non proliferative retinopathy
+71,719_left.jpg,A,dry age-related macular degeneration
+72,725_left.jpg,O,drusen
+73,735_left.jpg,D,mild nonproliferative retinopathy
+74,751_left.jpg,O,retinal pigmentation
+75,756_left.jpg,N,normal fundus
+76,763_left.jpg,D,moderate non proliferative retinopathy
+77,770_left.jpg,N,normal fundus
+78,785_left.jpg,N,normal fundus
+79,787_left.jpg,D,myelinated nerve fibers，moderate non proliferative retinopathy
+80,788_left.jpg,A,wet age-related macular degeneration
+81,799_left.jpg,D,moderate non proliferative retinopathy
+82,800_left.jpg,N,normal fundus
+83,824_left.jpg,C,cataract
+84,883_left.jpg,O,drusen
+85,885_left.jpg,N,normal fundus
+86,894_left.jpg,N,normal fundus
+87,896_left.jpg,N,normal fundus
+88,903_left.jpg,N,normal fundus
+89,908_left.jpg,N,lens dust，normal fundus
+90,932_left.jpg,N,normal fundus，lens dust
+91,966_left.jpg,D,epiretinal membrane，moderate non proliferative retinopathy
+92,977_left.jpg,A,wet age-related macular degeneration
+93,979_left.jpg,N,normal fundus
+94,980_left.jpg,D,moderate non proliferative retinopathy
+95,986_left.jpg,O,epiretinal membrane
+96,993_left.jpg,D,laser spot，moderate non proliferative retinopathy
+97,1005_left.jpg,O,macular hole
+98,1012_left.jpg,O,drusen
+99,1014_left.jpg,O,retinal pigmentation
+100,1015_left.jpg,O,drusen
+101,1032_left.jpg,N,normal fundus
+102,1034_left.jpg,N,normal fundus
+103,1040_left.jpg,O,myelinated nerve fibers
+104,1045_left.jpg,D,hypertensive retinopathy
+105,1084_left.jpg,D,moderate non proliferative retinopathy
+106,1114_left.jpg,O,refractive media opacity
+107,1116_left.jpg,O,idiopathic choroidal neovascularization
+108,1118_left.jpg,N,normal fundus
+109,1121_left.jpg,O,lens dust，drusen
+110,1130_left.jpg,O,spotted membranous change
+111,1166_left.jpg,N,normal fundus
+112,1168_left.jpg,N,normal fundus
+113,1215_left.jpg,G,glaucoma
+114,1216_left.jpg,G,glaucoma
+115,1225_left.jpg,G,glaucoma，myopia retinopathy
+116,1227_left.jpg,G,glaucoma
+117,1230_left.jpg,G,glaucoma，diabetic retinopathy
+118,1236_left.jpg,O,optic nerve atrophy
+119,1239_left.jpg,G,glaucoma
+120,1240_left.jpg,N,normal fundus
+121,1243_left.jpg,['image offset'],image offset
+122,1271_left.jpg,G,glaucoma
+123,1288_left.jpg,G,glaucoma
+124,1353_left.jpg,G,glaucoma
+125,1373_left.jpg,D,hypertensive retinopathy
+126,1377_left.jpg,D,hypertensive retinopathy
+127,1378_left.jpg,G,glaucoma
+128,1388_left.jpg,D,diabetic retinopathy
+129,1410_left.jpg,G,suspected glaucoma，refractive media opacity
+130,1423_left.jpg,G,suspected glaucoma
+131,1474_left.jpg,G,glaucoma，moderate non proliferative retinopathy
+132,1477_left.jpg,G,glaucoma
+133,1480_left.jpg,O,refractive media opacity
+134,1528_left.jpg,M,pathological myopia
+135,1540_left.jpg,M,lens dust，pathological myopia
+136,1546_left.jpg,M,pathological myopia
+137,1547_left.jpg,M,pathological myopia
+138,1548_left.jpg,M,pathological myopia
+139,1550_left.jpg,M,pathological myopia
+140,1554_left.jpg,M,pathological myopia
+141,1560_left.jpg,O,tessellated fundus
+142,1565_left.jpg,M,pathological myopia
+143,1584_left.jpg,M,pathological myopia
+144,1611_left.jpg,M,pathological myopia
+145,1616_left.jpg,M,pathological myopia
+146,1621_left.jpg,M,pathological myopia
+147,1643_left.jpg,M,pathological myopia
+148,1694_left.jpg,O,refractive media opacity
+149,1716_left.jpg,M,pathological myopia
+150,1836_left.jpg,A,dry age-related macular degeneration
+151,1857_left.jpg,A,wet age-related macular degeneration
+152,1885_left.jpg,A,dry age-related macular degeneration
+153,1886_left.jpg,A,dry age-related macular degeneration
+154,1970_left.jpg,G,glaucoma，lens dust
+155,1977_left.jpg,G,glaucoma
+156,1999_left.jpg,O,epiretinal membrane，lens dust
+157,2048_left.jpg,D,hypertensive retinopathy
+158,2078_left.jpg,D,diabetic retinopathy，wet age-related macular degeneration，macular epiretinal membrane
+159,2100_left.jpg,D,moderate non proliferative retinopathy，refractive media opacity
+160,2102_left.jpg,C,laser spot，cataract
+161,2109_left.jpg,C,cataract
+162,2118_left.jpg,O,refractive media opacity
+163,2125_left.jpg,C,cataract
+164,2137_left.jpg,C,cataract
+165,2163_left.jpg,C,cataract
+166,2197_left.jpg,N,normal fundus
+167,2207_left.jpg,C,cataract
+168,2213_left.jpg,C,cataract，lens dust
+169,2242_left.jpg,C,cataract
+170,2251_left.jpg,C,lens dust，cataract
+171,2336_left.jpg,N,normal fundus
+172,2345_left.jpg,N,normal fundus
+173,2368_left.jpg,N,normal fundus
+174,2370_left.jpg,N,normal fundus
+175,2386_left.jpg,N,normal fundus
+176,2389_left.jpg,N,normal fundus
+177,2399_left.jpg,N,normal fundus
+178,2401_left.jpg,N,normal fundus
+179,2423_left.jpg,N,normal fundus
+180,2428_left.jpg,N,normal fundus，lens dust
+181,2433_left.jpg,N,normal fundus
+182,2434_left.jpg,N,normal fundus
+183,2441_left.jpg,N,normal fundus
+184,2466_left.jpg,N,normal fundus
+185,2474_left.jpg,N,normal fundus
+186,2515_left.jpg,N,normal fundus
+187,2520_left.jpg,N,normal fundus
+188,2538_left.jpg,N,normal fundus
+189,2544_left.jpg,N,normal fundus
+190,2573_left.jpg,N,normal fundus
+191,2574_left.jpg,N,normal fundus
+192,2577_left.jpg,N,normal fundus
+193,2579_left.jpg,N,normal fundus
+194,2586_left.jpg,N,normal fundus
+195,2589_left.jpg,N,lens dust，normal fundus
+196,2598_left.jpg,N,normal fundus，lens dust
+197,2602_left.jpg,N,normal fundus
+198,2603_left.jpg,N,normal fundus
+199,2604_left.jpg,N,normal fundus
+200,2608_left.jpg,N,normal fundus
+201,2614_left.jpg,N,normal fundus
+202,2616_left.jpg,N,normal fundus
+203,2624_left.jpg,N,normal fundus
+204,2652_left.jpg,N,normal fundus，lens dust
+205,2665_left.jpg,N,normal fundus
+206,2669_left.jpg,N,normal fundus
+207,2675_left.jpg,N,normal fundus
+208,2678_left.jpg,N,normal fundus
+209,2683_left.jpg,N,normal fundus
+210,2690_left.jpg,N,normal fundus
+211,2703_left.jpg,N,normal fundus
+212,2718_left.jpg,N,normal fundus
+213,2747_left.jpg,N,normal fundus
+214,2762_left.jpg,N,normal fundus
+215,2763_left.jpg,N,normal fundus
+216,2766_left.jpg,N,normal fundus
+217,2767_left.jpg,N,normal fundus
+218,2771_left.jpg,N,normal fundus
+219,2773_left.jpg,N,normal fundus
+220,2779_left.jpg,N,normal fundus
+221,2784_left.jpg,N,normal fundus
+222,2789_left.jpg,N,normal fundus
+223,2795_left.jpg,N,normal fundus
+224,2804_left.jpg,N,normal fundus
+225,2807_left.jpg,N,normal fundus
+226,2823_left.jpg,N,normal fundus
+227,2826_left.jpg,N,normal fundus
+228,2835_left.jpg,N,normal fundus
+229,2840_left.jpg,N,lens dust，normal fundus
+230,2841_left.jpg,N,normal fundus
+231,2847_left.jpg,N,normal fundus
+232,2866_left.jpg,N,normal fundus
+233,2874_left.jpg,N,normal fundus
+234,2877_left.jpg,N,normal fundus
+235,2884_left.jpg,N,normal fundus
+236,2888_left.jpg,N,normal fundus
+237,2889_left.jpg,N,normal fundus
+238,2894_left.jpg,N,lens dust，normal fundus
+239,2901_left.jpg,N,normal fundus
+240,2908_left.jpg,N,normal fundus
+241,2912_left.jpg,N,normal fundus
+242,2920_left.jpg,N,normal fundus
+243,2923_left.jpg,N,normal fundus
+244,2926_left.jpg,N,normal fundus
+245,2928_left.jpg,N,lens dust，normal fundus
+246,2945_left.jpg,N,normal fundus
+247,2950_left.jpg,N,normal fundus
+248,2956_left.jpg,N,normal fundus
+249,2972_left.jpg,N,normal fundus
+250,2978_left.jpg,N,normal fundus
+251,2980_left.jpg,N,normal fundus
+252,3003_left.jpg,N,normal fundus
+253,3007_left.jpg,N,normal fundus
+254,3009_left.jpg,N,normal fundus
+255,3011_left.jpg,N,normal fundus
+256,3027_left.jpg,N,normal fundus
+257,3029_left.jpg,N,normal fundus
+258,3041_left.jpg,N,normal fundus
+259,3044_left.jpg,N,normal fundus
+260,3046_left.jpg,N,lens dust，normal fundus
+261,3049_left.jpg,N,normal fundus
+262,3058_left.jpg,N,normal fundus
+263,3092_left.jpg,N,normal fundus
+264,3098_left.jpg,N,normal fundus
+265,3140_left.jpg,N,normal fundus
+266,3153_left.jpg,N,normal fundus
+267,3157_left.jpg,N,normal fundus
+268,3158_left.jpg,N,lens dust，normal fundus
+269,3168_left.jpg,N,normal fundus
+270,3175_left.jpg,N,normal fundus
+271,3195_left.jpg,N,normal fundus
+272,3200_left.jpg,N,normal fundus
+273,3204_left.jpg,N,normal fundus
+274,3243_left.jpg,N,normal fundus
+275,3255_left.jpg,N,normal fundus
+276,3259_left.jpg,N,normal fundus
+277,3268_left.jpg,N,normal fundus
+278,3272_left.jpg,N,normal fundus
+279,3283_left.jpg,N,normal fundus
+280,3284_left.jpg,N,normal fundus
+281,3288_left.jpg,N,normal fundus
+282,3310_left.jpg,N,normal fundus
+283,3317_left.jpg,N,normal fundus
+284,3320_left.jpg,N,lens dust，normal fundus
+285,3339_left.jpg,N,normal fundus
+286,3342_left.jpg,N,normal fundus
+287,3375_left.jpg,N,normal fundus
+288,3390_left.jpg,N,normal fundus
+289,3415_left.jpg,N,normal fundus
+290,3420_left.jpg,N,normal fundus
+291,3422_left.jpg,N,normal fundus
+292,3431_left.jpg,N,normal fundus
+293,3441_left.jpg,N,normal fundus
+294,3938_left.jpg,D,moderate non proliferative retinopathy
+295,3949_left.jpg,N,normal fundus
+296,3951_left.jpg,D,mild nonproliferative retinopathy，hypertensive retinopathy
+297,3954_left.jpg,D,mild nonproliferative retinopathy
+298,3957_left.jpg,D,moderate non proliferative retinopathy
+299,3962_left.jpg,D,moderate non proliferative retinopathy
+300,3969_left.jpg,D,moderate non proliferative retinopathy
+301,3978_left.jpg,D,mild nonproliferative retinopathy
+302,3984_left.jpg,D,mild nonproliferative retinopathy
+303,4032_left.jpg,D,moderate non proliferative retinopathy
+304,4033_left.jpg,D,moderate non proliferative retinopathy
+305,4055_left.jpg,D,mild nonproliferative retinopathy，hypertensive retinopathy
+306,4059_left.jpg,N,normal fundus
+307,4061_left.jpg,D,moderate non proliferative retinopathy
+308,4073_left.jpg,D,moderate non proliferative retinopathy
+309,4084_left.jpg,D,moderate non proliferative retinopathy
+310,4086_left.jpg,D,moderate non proliferative retinopathy
+311,4090_left.jpg,D,moderate non proliferative retinopathy，hypertensive retinopathy
+312,4106_left.jpg,N,normal fundus
+313,4119_left.jpg,D,moderate non proliferative retinopathy
+314,4121_left.jpg,D,moderate non proliferative retinopathy
+315,4128_left.jpg,D,moderate non proliferative retinopathy
+316,4182_left.jpg,D,mild nonproliferative retinopathy
+317,4185_left.jpg,D,moderate non proliferative retinopathy
+318,4194_left.jpg,D,mild nonproliferative retinopathy
+319,4200_left.jpg,N,normal fundus
+320,4249_left.jpg,D,mild nonproliferative retinopathy
+321,4256_left.jpg,D,mild nonproliferative retinopathy
+322,4279_left.jpg,D,proliferative diabetic retinopathy
+323,4280_left.jpg,D,severe nonproliferative retinopathy
+324,4284_left.jpg,D,moderate non proliferative retinopathy
+325,4311_left.jpg,D,moderate non proliferative retinopathy
+326,4314_left.jpg,D,mild nonproliferative retinopathy
+327,4323_left.jpg,D,moderate non proliferative retinopathy
+328,4342_left.jpg,D,mild nonproliferative retinopathy
+329,4357_left.jpg,D,moderate non proliferative retinopathy
+330,4373_left.jpg,N,normal fundus
+331,4381_left.jpg,D,severe nonproliferative retinopathy
+332,4389_left.jpg,D,moderate non proliferative retinopathy
+333,4421_left.jpg,D,moderate non proliferative retinopathy
+334,4439_left.jpg,D,moderate non proliferative retinopathy
+335,4445_left.jpg,D,moderate non proliferative retinopathy，hypertensive retinopathy
+336,4469_left.jpg,N,normal fundus
+337,4470_left.jpg,D,mild nonproliferative retinopathy
+338,4511_left.jpg,D,moderate non proliferative retinopathy
+339,4530_left.jpg,D,severe nonproliferative retinopathy
+340,4543_left.jpg,D,mild nonproliferative retinopathy
+341,4565_left.jpg,D,moderate non proliferative retinopathy
+342,4588_left.jpg,D,mild nonproliferative retinopathy
+343,4599_left.jpg,D,moderate non proliferative retinopathy
+344,4603_left.jpg,D,severe nonproliferative retinopathy
+345,4626_left.jpg,D,moderate non proliferative retinopathy
+346,4634_left.jpg,D,moderate non proliferative retinopathy
+347,4635_left.jpg,D,moderate non proliferative retinopathy
+348,4784_left.jpg,D,hypertensive retinopathy，age-related macular degeneration
+349,1_right.jpg,N,normal fundus
+350,12_right.jpg,O,retinal pigmentation
+351,21_right.jpg,O,epiretinal membrane
+352,22_right.jpg,D,laser spot，moderate non proliferative retinopathy
+353,31_right.jpg,N,normal fundus
+354,46_right.jpg,M,pathological myopia
+355,55_right.jpg,A,dry age-related macular degeneration
+356,57_right.jpg,O,lens dust，drusen，normal fundus
+357,62_right.jpg,D,hypertensive retinopathy
+358,66_right.jpg,N,normal fundus
+359,75_right.jpg,O,drusen
+360,81_right.jpg,D,moderate non proliferative retinopathy，cataract
+361,91_right.jpg,O,myelinated nerve fibers
+362,101_right.jpg,O,drusen
+363,106_right.jpg,M,pathological myopia
+364,110_right.jpg,N,normal fundus
+365,128_right.jpg,O,epiretinal membrane
+366,131_right.jpg,O,retinitis pigmentosa
+367,137_right.jpg,D,moderate non proliferative retinopathy，epiretinal membrane
+368,145_right.jpg,M,pathological myopia
+369,156_right.jpg,O,macular epiretinal membrane
+370,173_right.jpg,O,epiretinal membrane
+371,175_right.jpg,D,moderate non proliferative retinopathy
+372,223_right.jpg,D,moderate non proliferative retinopathy
+373,254_right.jpg,O,macular epiretinal membrane
+374,264_right.jpg,N,normal fundus
+375,294_right.jpg,N,normal fundus
+376,314_right.jpg,O,drusen
+377,318_right.jpg,O,epiretinal membrane
+378,323_right.jpg,D,hypertensive retinopathy
+379,327_right.jpg,D,moderate non proliferative retinopathy
+380,328_right.jpg,D,laser spot，moderate non proliferative retinopathy
+381,348_right.jpg,D,moderate non proliferative retinopathy
+382,355_right.jpg,D,hypertensive retinopathy
+383,358_right.jpg,D,mild nonproliferative retinopathy
+384,359_right.jpg,A,dry age-related macular degeneration
+385,364_right.jpg,N,normal fundus
+386,377_right.jpg,A,dry age-related macular degeneration
+387,388_right.jpg,O,refractive media opacity
+388,401_right.jpg,M,pathological myopia
+389,403_right.jpg,N,normal fundus
+390,406_right.jpg,O,epiretinal membrane
+391,412_right.jpg,D,proliferative diabetic retinopathy
+392,413_right.jpg,D,moderate non proliferative retinopathy，hypertensive retinopathy
+393,430_right.jpg,D,moderate non proliferative retinopathy
+394,447_right.jpg,A,dry age-related macular degeneration
+395,473_right.jpg,O,vitreous degeneration
+396,493_right.jpg,D,laser spot，mild nonproliferative retinopathy
+397,499_right.jpg,D,hypertensive retinopathy，mild nonproliferative retinopathy
+398,507_right.jpg,D,moderate non proliferative retinopathy，epiretinal membrane
+399,515_right.jpg,O,macular epiretinal membrane
+400,523_right.jpg,O,myelinated nerve fibers
+401,531_right.jpg,O,vitreous degeneration
+402,541_right.jpg,D,"post laser photocoagulation,diabetic retinopathy,maculopathy"
+403,544_right.jpg,D,moderate non proliferative retinopathy，epiretinal membrane
+404,548_right.jpg,N,normal fundus
+405,566_right.jpg,D,moderate non proliferative retinopathy，drusen
+406,581_right.jpg,O,chorioretinal atrophy
+407,584_right.jpg,N,normal fundus
+408,596_right.jpg,D,moderate non proliferative retinopathy
+409,625_right.jpg,C,cataract，branch retinal vein occlusion
+410,628_right.jpg,N,normal fundus
+411,632_right.jpg,D,mild nonproliferative retinopathy
+412,638_right.jpg,N,normal fundus
+413,652_right.jpg,N,normal fundus
+414,654_right.jpg,D,moderate non proliferative retinopathy
+415,657_right.jpg,O,epiretinal membrane
+416,659_right.jpg,N,lens dust，normal fundus
+417,660_right.jpg,O,epiretinal membrane
+418,670_right.jpg,N,lens dust，normal fundus
+419,718_right.jpg,D,moderate non proliferative retinopathy，myelinated nerve fibers
+420,719_right.jpg,A,dry age-related macular degeneration
+421,725_right.jpg,O,drusen
+422,735_right.jpg,D,macular epiretinal membrane，mild nonproliferative retinopathy
+423,751_right.jpg,N,normal fundus
+424,756_right.jpg,O,macular epiretinal membrane
+425,763_right.jpg,D,moderate non proliferative retinopathy，atrophic change
+426,770_right.jpg,O,chorioretinal atrophy
+427,785_right.jpg,D,macular epiretinal membrane，mild nonproliferative retinopathy
+428,787_right.jpg,D,myelinated nerve fibers，mild nonproliferative retinopathy
+429,788_right.jpg,A,dry age-related macular degeneration
+430,799_right.jpg,D,moderate non proliferative retinopathy，branch retinal vein occlusion
+431,800_right.jpg,O,macular epiretinal membrane
+432,824_right.jpg,N,normal fundus
+433,883_right.jpg,N,normal fundus
+434,885_right.jpg,A,dry age-related macular degeneration
+435,894_right.jpg,O,drusen
+436,896_right.jpg,O,drusen
+437,903_right.jpg,O,myelinated nerve fibers
+438,908_right.jpg,M,pathological myopia
+439,932_right.jpg,O,macular epiretinal membrane，lens dust
+440,966_right.jpg,N,normal fundus
+441,977_right.jpg,N,normal fundus
+442,979_right.jpg,O,macular epiretinal membrane
+443,980_right.jpg,D,moderate non proliferative retinopathy
+444,986_right.jpg,O,epiretinal membrane
+445,993_right.jpg,D,macular epiretinal membrane，laser spot，lens dust，mild nonproliferative retinopathy
+446,1005_right.jpg,N,normal fundus
+447,1012_right.jpg,M,pathological myopia
+448,1014_right.jpg,N,normal fundus
+449,1015_right.jpg,O,drusen
+450,1032_right.jpg,O,macular epiretinal membrane
+451,1034_right.jpg,N,normal fundus
+452,1040_right.jpg,N,normal fundus
+453,1045_right.jpg,D,hypertensive retinopathy
+454,1084_right.jpg,C,cataract，mild nonproliferative retinopathy
+455,1114_right.jpg,N,normal fundus
+456,1116_right.jpg,O,maculopathy
+457,1118_right.jpg,O,maculopathy
+458,1121_right.jpg,N,normal fundus
+459,1130_right.jpg,N,normal fundus
+460,1166_right.jpg,O,maculopathy
+461,1168_right.jpg,A,wet age-related macular degeneration
+462,1215_right.jpg,G,glaucoma
+463,1216_right.jpg,G,glaucoma
+464,1225_right.jpg,G,glaucoma，myopia retinopathy
+465,1227_right.jpg,G,glaucoma
+466,1230_right.jpg,G,glaucoma，diabetic retinopathy
+467,1236_right.jpg,O,optic nerve atrophy
+468,1239_right.jpg,G,glaucoma
+469,1240_right.jpg,O,macular epiretinal membrane
+470,1243_right.jpg,A,dry age-related macular degeneration，glaucoma
+471,1271_right.jpg,G,glaucoma
+472,1288_right.jpg,G,glaucoma
+473,1353_right.jpg,G,glaucoma
+474,1373_right.jpg,D,hypertensive retinopathy，branch retinal vein occlusion，vitreous opacity
+475,1377_right.jpg,G,glaucoma，hypertensive retinopathy
+476,1378_right.jpg,G,glaucoma
+477,1388_right.jpg,G,glaucoma
+478,1410_right.jpg,D,mild nonproliferative retinopathy
+479,1423_right.jpg,N,normal fundus
+480,1474_right.jpg,O,drusen
+481,1477_right.jpg,G,glaucoma
+482,1480_right.jpg,G,glaucoma
+483,1528_right.jpg,M,refractive media opacity，pathological myopia
+484,1540_right.jpg,M,pathological myopia，lens dust
+485,1546_right.jpg,M,pathological myopia
+486,1547_right.jpg,M,pathological myopia
+487,1548_right.jpg,M,pathological myopia
+488,1550_right.jpg,M,pathological myopia
+489,1554_right.jpg,M,pathological myopia
+490,1560_right.jpg,M,pathological myopia
+491,1565_right.jpg,M,pathological myopia
+492,1584_right.jpg,M,pathological myopia
+493,1611_right.jpg,N,normal fundus
+494,1616_right.jpg,M,pathological myopia
+495,1621_right.jpg,M,pathological myopia
+496,1643_right.jpg,O,tessellated fundus，peripapillary atrophy
+497,1694_right.jpg,M,pathological myopia
+498,1716_right.jpg,O,peripapillary atrophy
+499,1836_right.jpg,A,dry age-related macular degeneration
+500,1857_right.jpg,A,dry age-related macular degeneration
+501,1885_right.jpg,A,wet age-related macular degeneration
+502,1886_right.jpg,A,dry age-related macular degeneration
+503,1970_right.jpg,O,myelinated nerve fibers，lens dust，drusen
+504,1977_right.jpg,G,glaucoma
+505,1999_right.jpg,G,epiretinal membrane，lens dust，glaucoma
+506,2048_right.jpg,G,glaucoma，old central retinal vein occlusion
+507,2078_right.jpg,D,diabetic retinopathy，macular epiretinal membrane
+508,2100_right.jpg,C,cataract，moderate non proliferative retinopathy
+509,2102_right.jpg,C,cataract，laser spot
+510,2109_right.jpg,C,cataract
+511,2118_right.jpg,C,cataract
+512,2125_right.jpg,N,normal fundus
+513,2137_right.jpg,C,cataract
+514,2163_right.jpg,C,cataract
+515,2197_right.jpg,C,cataract
+516,2207_right.jpg,C,cataract
+517,2213_right.jpg,C,cataract
+518,2242_right.jpg,C,cataract
+519,2251_right.jpg,C,cataract，lens dust
+520,2336_right.jpg,N,normal fundus
+521,2345_right.jpg,N,normal fundus
+522,2368_right.jpg,N,normal fundus
+523,2370_right.jpg,N,normal fundus，lens dust
+524,2386_right.jpg,N,normal fundus
+525,2389_right.jpg,N,normal fundus
+526,2399_right.jpg,N,normal fundus
+527,2401_right.jpg,N,normal fundus
+528,2423_right.jpg,N,normal fundus
+529,2428_right.jpg,N,lens dust，normal fundus
+530,2433_right.jpg,N,normal fundus
+531,2434_right.jpg,N,normal fundus
+532,2441_right.jpg,N,normal fundus
+533,2466_right.jpg,N,normal fundus
+534,2474_right.jpg,N,normal fundus
+535,2515_right.jpg,N,lens dust，normal fundus
+536,2520_right.jpg,N,normal fundus，lens dust
+537,2538_right.jpg,N,normal fundus
+538,2544_right.jpg,N,normal fundus
+539,2573_right.jpg,N,normal fundus
+540,2574_right.jpg,N,normal fundus
+541,2577_right.jpg,N,normal fundus
+542,2579_right.jpg,N,normal fundus
+543,2586_right.jpg,N,normal fundus
+544,2589_right.jpg,N,normal fundus，lens dust
+545,2598_right.jpg,N,normal fundus，lens dust
+546,2602_right.jpg,N,normal fundus
+547,2603_right.jpg,N,normal fundus
+548,2604_right.jpg,N,normal fundus
+549,2608_right.jpg,N,normal fundus
+550,2614_right.jpg,N,normal fundus
+551,2616_right.jpg,N,normal fundus
+552,2624_right.jpg,N,normal fundus
+553,2652_right.jpg,N,normal fundus
+554,2665_right.jpg,N,normal fundus
+555,2669_right.jpg,N,normal fundus
+556,2675_right.jpg,N,normal fundus
+557,2678_right.jpg,N,normal fundus
+558,2683_right.jpg,N,normal fundus
+559,2690_right.jpg,N,normal fundus
+560,2703_right.jpg,N,normal fundus
+561,2718_right.jpg,N,normal fundus
+562,2747_right.jpg,N,lens dust，normal fundus
+563,2762_right.jpg,N,normal fundus
+564,2763_right.jpg,N,normal fundus
+565,2766_right.jpg,N,normal fundus
+566,2767_right.jpg,N,normal fundus
+567,2771_right.jpg,N,normal fundus
+568,2773_right.jpg,N,normal fundus
+569,2779_right.jpg,N,normal fundus
+570,2784_right.jpg,N,normal fundus
+571,2789_right.jpg,N,normal fundus
+572,2795_right.jpg,N,normal fundus
+573,2804_right.jpg,N,normal fundus
+574,2807_right.jpg,N,normal fundus
+575,2823_right.jpg,N,normal fundus
+576,2826_right.jpg,N,normal fundus
+577,2835_right.jpg,N,normal fundus
+578,2840_right.jpg,N,lens dust，normal fundus
+579,2841_right.jpg,N,normal fundus
+580,2847_right.jpg,N,normal fundus
+581,2866_right.jpg,N,normal fundus
+582,2874_right.jpg,N,normal fundus
+583,2877_right.jpg,N,normal fundus
+584,2884_right.jpg,N,normal fundus
+585,2888_right.jpg,N,normal fundus
+586,2889_right.jpg,N,normal fundus
+587,2894_right.jpg,N,lens dust，normal fundus
+588,2901_right.jpg,N,normal fundus
+589,2908_right.jpg,N,normal fundus
+590,2912_right.jpg,N,normal fundus
+591,2920_right.jpg,N,normal fundus
+592,2923_right.jpg,N,normal fundus
+593,2926_right.jpg,N,normal fundus
+594,2928_right.jpg,N,lens dust，normal fundus
+595,2945_right.jpg,N,normal fundus
+596,2950_right.jpg,N,normal fundus
+597,2956_right.jpg,N,normal fundus
+598,2972_right.jpg,N,normal fundus
+599,2978_right.jpg,N,normal fundus
+600,2980_right.jpg,N,normal fundus
+601,3003_right.jpg,N,normal fundus
+602,3007_right.jpg,N,normal fundus
+603,3009_right.jpg,N,normal fundus
+604,3011_right.jpg,N,normal fundus
+605,3027_right.jpg,N,normal fundus
+606,3029_right.jpg,N,normal fundus
+607,3041_right.jpg,N,normal fundus
+608,3044_right.jpg,N,normal fundus
+609,3046_right.jpg,N,normal fundus，lens dust
+610,3049_right.jpg,N,lens dust，normal fundus
+611,3058_right.jpg,N,normal fundus
+612,3092_right.jpg,N,normal fundus
+613,3098_right.jpg,N,normal fundus
+614,3140_right.jpg,N,normal fundus
+615,3153_right.jpg,N,normal fundus
+616,3157_right.jpg,N,normal fundus
+617,3158_right.jpg,N,lens dust，normal fundus
+618,3168_right.jpg,N,normal fundus
+619,3175_right.jpg,N,normal fundus
+620,3195_right.jpg,N,normal fundus
+621,3200_right.jpg,N,normal fundus
+622,3204_right.jpg,N,lens dust，normal fundus
+623,3243_right.jpg,N,normal fundus
+624,3255_right.jpg,N,normal fundus
+625,3259_right.jpg,N,normal fundus
+626,3268_right.jpg,N,normal fundus
+627,3272_right.jpg,N,normal fundus
+628,3283_right.jpg,N,normal fundus，lens dust
+629,3284_right.jpg,N,normal fundus
+630,3288_right.jpg,N,normal fundus
+631,3310_right.jpg,N,normal fundus
+632,3317_right.jpg,N,normal fundus
+633,3320_right.jpg,N,normal fundus
+634,3339_right.jpg,N,normal fundus
+635,3342_right.jpg,N,normal fundus
+636,3375_right.jpg,N,normal fundus
+637,3390_right.jpg,N,normal fundus
+638,3415_right.jpg,N,normal fundus
+639,3420_right.jpg,N,normal fundus
+640,3422_right.jpg,N,normal fundus
+641,3431_right.jpg,N,normal fundus
+642,3441_right.jpg,N,normal fundus
+643,3938_right.jpg,D,moderate non proliferative retinopathy
+644,3949_right.jpg,D,moderate non proliferative retinopathy
+645,3951_right.jpg,D,hypertensive retinopathy
+646,3954_right.jpg,N,normal fundus
+647,3957_right.jpg,D,mild nonproliferative retinopathy
+648,3962_right.jpg,D,moderate non proliferative retinopathy
+649,3969_right.jpg,D,mild nonproliferative retinopathy
+650,3978_right.jpg,D,mild nonproliferative retinopathy
+651,3984_right.jpg,N,normal fundus
+652,4032_right.jpg,D,moderate non proliferative retinopathy
+653,4033_right.jpg,D,moderate non proliferative retinopathy
+654,4055_right.jpg,D,mild nonproliferative retinopathy
+655,4059_right.jpg,D,mild nonproliferative retinopathy
+656,4061_right.jpg,D,moderate non proliferative retinopathy
+657,4073_right.jpg,D,proliferative diabetic retinopathy
+658,4084_right.jpg,D,moderate non proliferative retinopathy
+659,4086_right.jpg,D,mild nonproliferative retinopathy
+660,4090_right.jpg,D,moderate non proliferative retinopathy，hypertensive retinopathy
+661,4106_right.jpg,D,mild nonproliferative retinopathy
+662,4119_right.jpg,D,moderate non proliferative retinopathy
+663,4121_right.jpg,D,moderate non proliferative retinopathy
+664,4128_right.jpg,N,normal fundus
+665,4182_right.jpg,N,normal fundus
+666,4185_right.jpg,D,moderate non proliferative retinopathy
+667,4194_right.jpg,N,normal fundus
+668,4200_right.jpg,D,mild nonproliferative retinopathy
+669,4249_right.jpg,D,moderate non proliferative retinopathy
+670,4256_right.jpg,N,normal fundus
+671,4279_right.jpg,D,severe nonproliferative retinopathy
+672,4280_right.jpg,D,severe nonproliferative retinopathy
+673,4284_right.jpg,D,moderate non proliferative retinopathy
+674,4311_right.jpg,D,moderate non proliferative retinopathy
+675,4314_right.jpg,D,mild nonproliferative retinopathy
+676,4323_right.jpg,D,severe nonproliferative retinopathy
+677,4342_right.jpg,D,mild nonproliferative retinopathy
+678,4357_right.jpg,D,moderate non proliferative retinopathy
+679,4373_right.jpg,D,mild nonproliferative retinopathy
+680,4381_right.jpg,D,severe nonproliferative retinopathy
+681,4389_right.jpg,N,normal fundus
+682,4421_right.jpg,D,moderate non proliferative retinopathy
+683,4439_right.jpg,D,mild nonproliferative retinopathy
+684,4445_right.jpg,D,moderate non proliferative retinopathy，hypertensive retinopathy
+685,4469_right.jpg,D,mild nonproliferative retinopathy
+686,4470_right.jpg,D,mild nonproliferative retinopathy
+687,4511_right.jpg,D,moderate non proliferative retinopathy
+688,4530_right.jpg,D,moderate non proliferative retinopathy
+689,4543_right.jpg,N,normal fundus
+690,4565_right.jpg,D,moderate non proliferative retinopathy
+691,4588_right.jpg,O,macular epiretinal membrane
+692,4599_right.jpg,D,moderate non proliferative retinopathy
+693,4603_right.jpg,D,severe nonproliferative retinopathy
+694,4626_right.jpg,N,normal fundus
+695,4634_right.jpg,D,mild nonproliferative retinopathy
+696,4635_right.jpg,D,moderate non proliferative retinopathy
+697,4784_right.jpg,D,hypertensive retinopathy，age-related macular degeneration
