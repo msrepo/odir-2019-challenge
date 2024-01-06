@@ -444,7 +444,6 @@
 442,490_left.jpg,D,laser spot，moderate non proliferative retinopathy
 443,491_left.jpg,D,vitreous degeneration，mild nonproliferative retinopathy
 444,492_left.jpg,D,moderate non proliferative retinopathy
-445,494_left.jpg,['optic disk photographically invisible'],optic disk photographically invisible
 446,495_left.jpg,D,moderate non proliferative retinopathy
 447,496_left.jpg,N,normal fundus
 448,497_left.jpg,D,laser spot，moderate non proliferative retinopathy
@@ -1055,7 +1054,6 @@
 1053,1250_left.jpg,G,glaucoma
 1054,1251_left.jpg,G,glaucoma，diabetic retinopathy
 1055,1253_left.jpg,N,normal fundus
-1056,1254_left.jpg,['optic disk photographically invisible'],optic disk photographically invisible
 1057,1255_left.jpg,G,glaucoma，diffuse retinal atrophy
 1058,1256_left.jpg,G,glaucoma
 1059,1258_left.jpg,G,glaucoma
@@ -1104,7 +1102,6 @@
 1102,1311_left.jpg,N,normal fundus
 1103,1314_left.jpg,A,dry age-related macular degeneration，glaucoma
 1104,1318_left.jpg,G,glaucoma
-1105,1319_left.jpg,['optic disk photographically invisible'],optic disk photographically invisible
 1106,1325_left.jpg,G,glaucoma
 1107,1327_left.jpg,G,glaucoma，macular epiretinal membrane
 1108,1330_left.jpg,G,glaucoma
@@ -2354,7 +2351,6 @@
 2352,3262_left.jpg,N,normal fundus
 2353,3263_left.jpg,N,normal fundus
 2354,3264_left.jpg,N,normal fundus
-2355,3265_left.jpg,"['lens dust', 'lens dust', 'lens dust']",lens dust，lens dust，lens dust
 2356,3266_left.jpg,N,normal fundus
 2357,3267_left.jpg,N,normal fundus
 2358,3269_left.jpg,N,normal fundus
@@ -2479,7 +2475,6 @@
 2477,3399_left.jpg,N,normal fundus
 2478,3400_left.jpg,N,normal fundus
 2479,3401_left.jpg,N,normal fundus
-2480,3402_left.jpg,"['lens dust', 'lens dust']",lens dust，lens dust
 2481,3403_left.jpg,N,normal fundus
 2482,3404_left.jpg,N,normal fundus
 2483,3405_left.jpg,N,normal fundus
@@ -2524,7 +2519,6 @@
 2522,3485_left.jpg,N,normal fundus
 2523,3932_left.jpg,D,mild nonproliferative retinopathy
 2524,3934_left.jpg,D,moderate non proliferative retinopathy
-2525,3935_left.jpg,['low image quality'],low image quality
 2526,3936_left.jpg,D,moderate non proliferative retinopathy，hypertensive retinopathy
 2527,3937_left.jpg,N,normal fundus
 2528,3939_left.jpg,D,severe nonproliferative retinopathy，hypertensive retinopathy
@@ -2575,7 +2569,6 @@
 2573,4002_left.jpg,D,severe nonproliferative retinopathy
 2574,4003_left.jpg,D,moderate non proliferative retinopathy
 2575,4005_left.jpg,D,mild nonproliferative retinopathy
-2576,4007_left.jpg,['low image quality'],low image quality
 2577,4008_left.jpg,D,moderate non proliferative retinopathy
 2578,4009_left.jpg,D,moderate non proliferative retinopathy
 2579,4011_left.jpg,D,moderate non proliferative retinopathy
@@ -2688,7 +2681,6 @@
 2686,4146_left.jpg,N,normal fundus
 2687,4147_left.jpg,D,mild nonproliferative retinopathy
 2688,4148_left.jpg,D,mild nonproliferative retinopathy
-2689,4149_left.jpg,['low image quality'],low image quality
 2690,4151_left.jpg,D,moderate non proliferative retinopathy
 2691,4152_left.jpg,N,normal fundus
 2692,4153_left.jpg,N,normal fundus
@@ -2705,7 +2697,6 @@
 2703,4166_left.jpg,D,mild nonproliferative retinopathy
 2704,4167_left.jpg,N,normal fundus
 2705,4168_left.jpg,D,moderate non proliferative retinopathy
-2706,4169_left.jpg,['low image quality'],low image quality
 2707,4171_left.jpg,D,moderate non proliferative retinopathy
 2708,4172_left.jpg,D,mild nonproliferative retinopathy
 2709,4173_left.jpg,D,moderate non proliferative retinopathy
@@ -2811,7 +2802,6 @@
 2809,4287_left.jpg,N,normal fundus
 2810,4288_left.jpg,N,normal fundus
 2811,4289_left.jpg,D,moderate non proliferative retinopathy
-2812,4290_left.jpg,['low image quality'],low image quality
 2813,4291_left.jpg,D,moderate non proliferative retinopathy
 2814,4292_left.jpg,N,normal fundus
 2815,4293_left.jpg,D,moderate non proliferative retinopathy
@@ -2942,11 +2932,9 @@
 2940,4438_left.jpg,N,normal fundus
 2941,4440_left.jpg,N,normal fundus
 2942,4441_left.jpg,D,moderate non proliferative retinopathy
-2943,4442_left.jpg,['low image quality'],low image quality
 2944,4443_left.jpg,D,mild nonproliferative retinopathy
 2945,4444_left.jpg,D,mild nonproliferative retinopathy
 2946,4447_left.jpg,D,moderate non proliferative retinopathy
-2947,4448_left.jpg,['low image quality'],low image quality
 2948,4449_left.jpg,D,severe nonproliferative retinopathy
 2949,4450_left.jpg,D,moderate non proliferative retinopathy
 2950,4451_left.jpg,D,mild nonproliferative retinopathy
@@ -3004,7 +2992,6 @@
 3002,4516_left.jpg,D,mild nonproliferative retinopathy
 3003,4519_left.jpg,D,moderate non proliferative retinopathy
 3004,4520_left.jpg,D,moderate non proliferative retinopathy
-3005,4522_left.jpg,['low image quality'],low image quality
 3006,4523_left.jpg,N,normal fundus
 3007,4524_left.jpg,D,moderate non proliferative retinopathy
 3008,4525_left.jpg,D,moderate non proliferative retinopathy
@@ -3474,7 +3461,6 @@
 3472,369_right.jpg,D,laser spot，moderate non proliferative retinopathy
 3473,370_right.jpg,N,normal fundus
 3474,371_right.jpg,O,drusen
-3475,372_right.jpg,['low image quality'],low image quality
 3476,373_right.jpg,O,macular epiretinal membrane
 3477,374_right.jpg,D,hypertensive retinopathy
 3478,375_right.jpg,D,punctate inner choroidopathy，myopia retinopathy
@@ -4259,7 +4245,6 @@
 4257,1364_right.jpg,D,moderate non proliferative retinopathy，pathological myopia
 4258,1365_right.jpg,G,glaucoma
 4259,1366_right.jpg,D,myopic retinopathy
-4260,1369_right.jpg,['optic disk photographically invisible'],optic disk photographically invisible
 4261,1371_right.jpg,G,glaucoma
 4262,1374_right.jpg,G,glaucoma
 4263,1383_right.jpg,O,macular epiretinal membrane
@@ -5675,7 +5660,6 @@
 5673,3944_right.jpg,D,moderate non proliferative retinopathy
 5674,3945_right.jpg,D,moderate non proliferative retinopathy
 5675,3946_right.jpg,D,mild nonproliferative retinopathy
-5676,3947_right.jpg,['low image quality'],low image quality
 5677,3948_right.jpg,D,mild nonproliferative retinopathy
 5678,3950_right.jpg,D,mild nonproliferative retinopathy
 5679,3952_right.jpg,D,moderate non proliferative retinopathy
@@ -5763,7 +5747,6 @@
 5761,4060_right.jpg,D,mild nonproliferative retinopathy
 5762,4063_right.jpg,N,normal fundus
 5763,4064_right.jpg,D,mild nonproliferative retinopathy
-5764,4066_right.jpg,['low image quality'],low image quality
 5765,4067_right.jpg,N,normal fundus
 5766,4068_right.jpg,D,moderate non proliferative retinopathy，age-related macular degeneration
 5767,4069_right.jpg,D,mild nonproliferative retinopathy
@@ -5809,7 +5792,6 @@
 5807,4120_right.jpg,D,severe nonproliferative retinopathy，hypertensive retinopathy
 5808,4122_right.jpg,D,moderate non proliferative retinopathy，hypertensive retinopathy
 5809,4123_right.jpg,N,normal fundus
-5810,4124_right.jpg,['low image quality'],low image quality
 5811,4125_right.jpg,D,mild nonproliferative retinopathy
 5812,4126_right.jpg,D,mild nonproliferative retinopathy
 5813,4127_right.jpg,D,severe nonproliferative retinopathy
@@ -5829,7 +5811,6 @@
 5827,4146_right.jpg,D,moderate non proliferative retinopathy
 5828,4147_right.jpg,D,mild nonproliferative retinopathy
 5829,4148_right.jpg,D,moderate non proliferative retinopathy
-5830,4149_right.jpg,['low image quality'],low image quality
 5831,4151_right.jpg,D,moderate non proliferative retinopathy
 5832,4152_right.jpg,D,mild nonproliferative retinopathy
 5833,4153_right.jpg,D,mild nonproliferative retinopathy
@@ -5856,7 +5837,6 @@
 5854,4177_right.jpg,D,mild nonproliferative retinopathy
 5855,4178_right.jpg,D,moderate non proliferative retinopathy
 5856,4179_right.jpg,D,moderate non proliferative retinopathy
-5857,4180_right.jpg,['low image quality'],low image quality
 5858,4181_right.jpg,D,moderate non proliferative retinopathy
 5859,4183_right.jpg,D,moderate non proliferative retinopathy
 5860,4184_right.jpg,D,moderate non proliferative retinopathy
@@ -5869,7 +5849,6 @@
 5867,4195_right.jpg,D,moderate non proliferative retinopathy
 5868,4196_right.jpg,D,moderate non proliferative retinopathy
 5869,4197_right.jpg,D,mild nonproliferative retinopathy
-5870,4198_right.jpg,['low image quality'],low image quality
 5871,4199_right.jpg,D,hypertensive retinopathy
 5872,4201_right.jpg,D,mild nonproliferative retinopathy
 5873,4202_right.jpg,D,moderate non proliferative retinopathy，hypertensive retinopathy
@@ -5928,7 +5907,6 @@
 5926,4259_right.jpg,D,moderate non proliferative retinopathy
 5927,4260_right.jpg,D,mild nonproliferative retinopathy
 5928,4261_right.jpg,D,moderate non proliferative retinopathy
-5929,4262_right.jpg,['low image quality'],low image quality
 5930,4263_right.jpg,D,moderate non proliferative retinopathy
 5931,4265_right.jpg,D,mild nonproliferative retinopathy
 5932,4266_right.jpg,D,mild nonproliferative retinopathy
@@ -5979,7 +5957,6 @@
 5977,4316_right.jpg,D,moderate non proliferative retinopathy
 5978,4317_right.jpg,D,moderate non proliferative retinopathy
 5979,4318_right.jpg,D,moderate non proliferative retinopathy
-5980,4319_right.jpg,['low image quality'],low image quality
 5981,4320_right.jpg,D,moderate non proliferative retinopathy
 5982,4321_right.jpg,D,moderate non proliferative retinopathy
 5983,4322_right.jpg,N,normal fundus
@@ -6041,7 +6018,6 @@
 6039,4391_right.jpg,D,proliferative diabetic retinopathy
 6040,4392_right.jpg,D,mild nonproliferative retinopathy
 6041,4393_right.jpg,D,severe nonproliferative retinopathy
-6042,4394_right.jpg,['low image quality'],low image quality
 6043,4395_right.jpg,N,normal fundus
 6044,4396_right.jpg,D,mild nonproliferative retinopathy
 6045,4397_right.jpg,D,moderate non proliferative retinopathy
@@ -6070,7 +6046,6 @@
 6068,4424_right.jpg,D,moderate non proliferative retinopathy
 6069,4425_right.jpg,D,moderate non proliferative retinopathy
 6070,4426_right.jpg,N,normal fundus
-6071,4427_right.jpg,['low image quality'],low image quality
 6072,4428_right.jpg,N,normal fundus
 6073,4429_right.jpg,D,moderate non proliferative retinopathy
 6074,4430_right.jpg,D,mild nonproliferative retinopathy
@@ -6215,7 +6190,6 @@
 6213,4597_right.jpg,D,moderate non proliferative retinopathy
 6214,4598_right.jpg,D,post retinal laser surgery，severe nonproliferative retinopathy
 6215,4600_right.jpg,D,post retinal laser surgery，moderate non proliferative retinopathy
-6216,4601_right.jpg,['low image quality'],low image quality
 6217,4602_right.jpg,N,normal fundus
 6218,4604_right.jpg,D,mild nonproliferative retinopathy
 6219,4605_right.jpg,D,moderate non proliferative retinopathy
