@@ -1,7 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import torch
-from torchvision.transforms import Lambda, Compose,ToTensor
+from torchvision.transforms import Lambda, Compose,ToTensor,Resize
+from torchvision.io import read_image
 import torchvision.transforms.functional as tvf
 
 def nonzero_bounding_box(img:np.ndarray, verbose=False):
@@ -89,9 +90,21 @@ def pad_to_largest_square(img:torch.Tensor,verbose=False):
         print('padding', required_pad)
     return padded_img
 
+def read_image(img_path):
+    img = plt.imread(img_path)
+    return img.copy() # return a copy to get rid of UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors.
+
 img_transform = Compose([
-    Lambda(plt.imread),
+    Lambda(read_image),
     Lambda(crop_nonzero),
     ToTensor(),
     Lambda(pad_to_largest_square),
 ])
+
+def get_img_transform(img_size:int):
+    base_img_transform = img_transform
+    resized_img_transform = Compose([
+        base_img_transform,
+        Resize(size=img_size,interpolation=tvf.InterpolationMode.BILINEAR,antialias=True)
+    ])
+    return resized_img_transform
