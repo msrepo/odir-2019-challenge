@@ -1,2 +1,4 @@
 pandas
 pytorch-ignite
+py7zr
+openpyxl

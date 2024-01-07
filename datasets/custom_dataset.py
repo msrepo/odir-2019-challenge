@@ -15,17 +15,27 @@ class CSVDataset(Dataset):
         import pandas as pd
         df = pd.read_csv(self.csv_path)
         image_paths = df['fundus'].to_list()
-        label_paths = df['label'].to_list()
+        # allow empty labels for test data sets
+        if 'label' in df.columns:
+            label_paths = df['label'].to_list()
+        else:
+            label_paths = None
         return image_paths, label_paths
 
     def __len__(self):
         return len(self.image_paths)
     
     def __getitem__(self, index):
-        img, label =  join(self.data_root_dir,self.image_paths[index]), self.labels[index]
+        img =  join(self.data_root_dir,self.image_paths[index])
+        if self.labels:
+            label = self.labels[index]
+        else:
+            label = None
+
         if self.img_transform:
             img = self.img_transform(img)
-        if self.label_transform:
+            
+        if self.label_transform and label:
             label = self.label_transform(label)
         
         return img, label

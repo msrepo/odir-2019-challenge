@@ -15,16 +15,15 @@ from models.models import Net
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 IMG_SIZE = 300
 TRAIN_DATA_ROOT_DIR = 'odir2019/ODIR-5K_Training_Dataset'
-VAL_DATA_ROOT_DIR = 'odir2019/ODIR-5K_Testing_Images'
 TRAIN_CSV= 'csv/processed_train_ODIR-5K.csv'
 VAL_CSV = 'csv/processed_val_ODIR-5K.csv'
 N_CLASSES = 8
 N_CHANNELS = 3
-LOG_INTERVAL = 100
-BATCH_SIZE = 16
-
-
-
+LOG_INTERVAL = 20
+BATCH_SIZE = 32
+LEARNING_RATE = 5e-2
+MAX_EPOCHS = 100
+N_CHECKPOINTS = 5
 
 model = Net().to(device)
 
@@ -36,12 +35,12 @@ train_loader = DataLoader(
 )
 
 val_loader = DataLoader(
-    CSVDataset(data_root_dir=VAL_DATA_ROOT_DIR,csv_path=VAL_CSV,img_transform=data_transform,
+    CSVDataset(data_root_dir=TRAIN_DATA_ROOT_DIR,csv_path=VAL_CSV,img_transform=data_transform,
                label_transform=label_transform), batch_size=BATCH_SIZE, shuffle=False
 )
 
 
-optimizer = torch.optim.RMSprop(model.parameters(), lr=0.005)
+optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
 criterion = nn.CrossEntropyLoss()
 
 trainer = create_supervised_trainer(model, optimizer, criterion, device)
@@ -80,11 +79,12 @@ def score_function(engine):
 
 model_checkpoint = ModelCheckpoint(
     "checkpoint",
-    n_saved=2,
+    n_saved=N_CHECKPOINTS,
     filename_prefix="best",
     score_function=score_function,
     score_name="accuracy",
     global_step_transform=global_step_from_engine(trainer),
+    require_empty=False,
 )
   
 val_evaluator.add_event_handler(Events.COMPLETED, model_checkpoint, {"model": model})
@@ -107,6 +107,6 @@ for tag, evaluator in [("training", train_evaluator), ("validation", val_evaluat
         global_step_transform=global_step_from_engine(trainer),
     )
 
-trainer.run(train_loader, max_epochs=5)
+trainer.run(train_loader, max_epochs=100)
 
 tb_logger.close()
