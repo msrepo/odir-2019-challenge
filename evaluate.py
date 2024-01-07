@@ -1,7 +1,9 @@
+import os
 from models.models import Net
 from transforms.transforms import LABELS, get_img_transform
 import torch
 import argparse
+from os.path import join
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--checkpoint", "-c", required=True)
@@ -40,19 +42,27 @@ def get_img_paths(data_root_dir, suffix=".jpg"):
     return img_paths
 
 
-def predict(img_path, model):
+def predict(img_path, model,device=device):
     img = data_transform(img_path)
     # add batch dimension
-    pred_proba = model(img.unsqueeze(0))
+    pred_proba = model(img.unsqueeze(0).to(device))
     return pred_proba
 
-def get_most_probable(pred_proba) -> tuple(int,float):
+def get_most_probable(pred_proba):
     return LABELS[torch.argmax(pred_proba)], torch.max(pred_proba) 
 
-def save_predictions(img_paths, predictions, save_csv_path):
+def save_predictions(ids, predictions, save_csv_path):
     import pandas as pd
 
-    df = pd.DataFrame(data={"path": img_paths, "prediction": predictions})
+    class_labels = ['N','D','G','C','A','H','M','O']
+    row_header = ['ID',]+class_labels
+    
+    df = pd.DataFrame(columns=row_header)
+    for i,(id,p) in enumerate(zip(ids, predictions)):
+        one_hot_prediction = [0,]*len(class_labels)
+        idx = class_labels.index(p)
+        one_hot_prediction[idx] = 1
+        df.loc[i] = [id,]+ one_hot_prediction
     df.to_csv(index=False, path_or_buf=save_csv_path)
 
 
@@ -82,8 +92,7 @@ def merge_predictions(left_pred_proba, right_pred_proba):
             return left_label
         else:
             return right_label
-        
-N_SAMPLES = 10
+
 left_img_paths = sorted(get_img_paths(TEST_DATA_ROOT_DIR, suffix="_left.jpg"))
 right_img_paths = sorted(get_img_paths(TEST_DATA_ROOT_DIR, suffix="_right.jpg"))
 
@@ -92,6 +101,22 @@ right_ids = [get_ID_from_path(p)[0] for p in right_img_paths]
 
 ids = set(left_ids + right_ids)
 
-left_predictions = [ predict(_path,model) for _path in left_img_paths[:N_SAMPLES]]
-right_predictions = [predict(_path,model) for _path in right_img_paths[:N_SAMPLES]]
-# save_predictions(img_paths=img_paths[:N_SAMPLES],predictions=predictions, save_csv_path='XYZ_ODIR_prediction.csv')
+N_SAMPLES = len(list(ids))
+predictions = []
+for id in list(ids)[:N_SAMPLES]:
+    left_image = join(TEST_DATA_ROOT_DIR,f'{id}_left.jpg')
+    if os.path.exists(left_image):
+        left_prediction = predict(left_image,model)
+    else:
+        left_prediction = None
+
+    right_image = join(TEST_DATA_ROOT_DIR,f'{id}_right.jpg')
+    if os.path.exists(right_image):
+        right_prediction =  predict(right_image,model)
+    else:
+        right_prediction = None
+
+    merge_p = merge_predictions(left_prediction,right_prediction)
+    predictions.append(merge_p)
+
+save_predictions(ids=ids, predictions=predictions, save_csv_path='XYZ_ODIR_prediction.csv')
